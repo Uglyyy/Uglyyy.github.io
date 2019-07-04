@@ -3,20 +3,20 @@
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
-  <title>Hello World | Uglyyy</title>
+  <title>基本排序算法 | Uglyyy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta name="keywords" content="java c">
+  <meta name="description" content="#  一，直接排序算法  插入排序的设计初衷是往有序的数组中快速插入一个新的元素。  1，基本思想  直接插入排序的基本思想是：将数组中的所有元素依次跟前面已经排好的元素相比较，如果选择的元素比已排序的元素小，则交换，直到全部元素都比较过为止。  ![](C:\Users\刘本国\Desktop\新建文件夹 (2)\Insertion-sort-example-300px.gif) 2，算法描述一">
+<meta name="keywords" content="-算法 -java">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2019/07/03/hello-world/index.html">
+<meta property="og:title" content="基本排序算法">
+<meta property="og:url" content="http://yoursite.com/2019/07/03/基本排序算法/index.html">
 <meta property="og:site_name" content="Uglyyy">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="#  一，直接排序算法  插入排序的设计初衷是往有序的数组中快速插入一个新的元素。  1，基本思想  直接插入排序的基本思想是：将数组中的所有元素依次跟前面已经排好的元素相比较，如果选择的元素比已排序的元素小，则交换，直到全部元素都比较过为止。  ![](C:\Users\刘本国\Desktop\新建文件夹 (2)\Insertion-sort-example-300px.gif) 2，算法描述一">
 <meta property="og:locale" content="English">
-<meta property="og:updated_time" content="2019-07-04T09:22:52.485Z">
+<meta property="og:updated_time" content="2019-07-04T10:26:37.212Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="基本排序算法">
+<meta name="twitter:description" content="#  一，直接排序算法  插入排序的设计初衷是往有序的数组中快速插入一个新的元素。  1，基本思想  直接插入排序的基本思想是：将数组中的所有元素依次跟前面已经排好的元素相比较，如果选择的元素比已排序的元素小，则交换，直到全部元素都比较过为止。  ![](C:\Users\刘本国\Desktop\新建文件夹 (2)\Insertion-sort-example-300px.gif) 2，算法描述一">
   
     <link rel="alternative" href="/atom.xml" title="Uglyyy" type="application/atom+xml">
   
@@ -328,11 +328,11 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-基本排序算法" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2019/07/03/hello-world/" class="article-date">
-      <time datetime="2019-07-03T07:58:15.476Z" itemprop="datePublished">2019-07-03</time>
+      <a href="/2019/07/03/基本排序算法/" class="article-date">
+      <time datetime="2019-07-03T14:39:24.000Z" itemprop="datePublished">2019-07-03</time>
 </a>
     </div>
   
@@ -345,7 +345,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      基本排序算法
     </h1>
   
 
@@ -355,6 +355,10 @@
         
 
         
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/算法-java/">-算法 -java</a></li></ul>
+    </div>
+
         <div class="clearfix"></div>
       </div>
       
@@ -362,19 +366,41 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <p># </p>
+<h2 id="一，直接排序算法"><a href="#一，直接排序算法" class="headerlink" title="一，直接排序算法"></a>一，直接排序算法</h2><p>  插入排序的设计初衷是往有序的数组中快速插入一个新的元素。 </p>
+<h4 id="1，基本思想"><a href="#1，基本思想" class="headerlink" title="1，基本思想"></a>1，基本思想</h4><p>  直接插入排序的基本思想是：将数组中的所有元素依次跟前面已经排好的元素相比较，如果选择的元素比已排序的元素小，则交换，直到全部元素都比较过为止。 </p>
+<p>![](C:\Users\刘本国\Desktop\新建文件夹 (2)\Insertion-sort-example-300px.gif)</p>
+<h4 id="2，算法描述"><a href="#2，算法描述" class="headerlink" title="2，算法描述"></a>2，算法描述</h4><p>一般来说，插入排序都采用in-place在数组上实现。具体算法描述如下：</p>
+<p>①. 从第一个元素开始，该元素可以认为已经被排序<br>②. 取出下一个元素，在已经排序的元素序列中从后向前扫描<br>③. 如果该元素（已排序）大于新元素，将该元素移到下一位置<br>④. 重复步骤3，直到找到已排序的元素小于或者等于新元素的位置<br>⑤. 将新元素插入到该位置后<br>⑥. 重复步骤②~⑤</p>
+<p>如果操作次数比较多，则可以采用二分法查找。该算法是可以认为是插入算法的一个变种。</p>
+<p>![](C:\Users\刘本国\Desktop\新建文件夹 (2)\insert-sort.gif)</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">insertionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>( <span class="keyword">int</span> i=<span class="number">0</span>; i&lt;arr.length-<span class="number">1</span>; i++ ) &#123;</span><br><span class="line">        <span class="keyword">for</span>( <span class="keyword">int</span> j=i+<span class="number">1</span>; j&gt;<span class="number">0</span>; j-- ) &#123;</span><br><span class="line">            <span class="keyword">if</span>( arr[j-<span class="number">1</span>] &lt;= arr[j] )</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">int</span> temp = arr[j];      <span class="comment">//交换操作</span></span><br><span class="line">            arr[j] = arr[j-<span class="number">1</span>];</span><br><span class="line">            arr[j-<span class="number">1</span>] = temp;</span><br><span class="line">            System.out.println(<span class="string">"Sorting:  "</span> + Arrays.toString(arr));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>直接插入排序复杂度如下</p>
+<table>
+<thead>
+<tr>
+<th>平均时间复杂度</th>
+<th>最好情况</th>
+<th>最坏情况</th>
+<th>空间复杂度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>O(n²)</td>
+<td>O(n²)</td>
+<td>O(n²)</td>
+<td>O(1)</td>
+</tr>
+</tbody></table>
+<h2 id="二，希尔排序（Shell-Sort）"><a href="#二，希尔排序（Shell-Sort）" class="headerlink" title="二，希尔排序（Shell Sort）"></a>二，希尔排序（Shell Sort）</h2><p>希尔排序，也称<strong>递减增量排序算法</strong>，1959年Shell发明。是插入排序的一种高速而稳定的改进版本。</p>
+<p>希尔排序是先将整个待排序的记录序列分割成为若干子序列分别进行直接插入排序，待整个序列中的记录“基本有序”时，再对全体记录进行依次直接插入排序。</p>
+<h4 id="1，基本思想-1"><a href="#1，基本思想-1" class="headerlink" title="1，基本思想"></a>1，基本思想</h4><p>![](C:\Users\刘本国\Desktop\新建文件夹 (2)\shell-sort.jpg)</p>
+<p>将待排序数组按照步长gap进行分组，然后将每组的元素利用直接插入排序的方法进行排序；每次再将gap折半减小，循环上述操作；当gap=1时，利用直接插入，完成排序。</p>
+<p>可以看到步长的选择是希尔排序的重要部分。只要最终步长为1任何步长序列都可以工作。一般来说最简单的步长取值是<strong>初次取数组长度的一半</strong>为增量，之后每次再减半，直到增量为1。更好的步长序列取值可以参考<a href="https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F#.E6.AD.A5.E9.95.BF.E5.BA.8F.E5.88.97" target="_blank" rel="noopener">维基百科</a>。</p>
+<h4 id="2，算法描述-1"><a href="#2，算法描述-1" class="headerlink" title="2，算法描述"></a>2，算法描述</h4><p>①. 选择一个增量序列t1，t2，…，tk，其中ti&gt;tj，tk=1；（<strong>一般初次取数组半长，之后每次再减半，直到增量为1</strong>）  ②. 按增量序列个数k，对序列进行k 趟排序；  ③. 每趟排序，根据对应的增量ti，将待排序列分割成若干长度为m 的子序列，分别对各子表进行直接插入排序。仅增量因子为1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。 </p>
+<h4 id="3，代码实现"><a href="#3，代码实现" class="headerlink" title="3，代码实现"></a>3，代码实现</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">shellSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> gap = arr.length / <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">for</span> (; gap &gt; <span class="number">0</span>; gap /= <span class="number">2</span>) &#123;      <span class="comment">//不断缩小gap，直到1为止</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; (j+gap) &lt; arr.length; j++)&#123;     <span class="comment">//使用当前gap进行组内插入排序</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> k = <span class="number">0</span>; (k+gap)&lt; arr.length; k += gap)&#123;</span><br><span class="line">                <span class="keyword">if</span>(arr[k] &gt; arr[k+gap]) &#123;</span><br><span class="line">                    <span class="keyword">int</span> temp = arr[k+gap];      <span class="comment">//交换操作</span></span><br><span class="line">                    arr[k+gap] = arr[k];</span><br><span class="line">                    arr[k] = temp;</span><br><span class="line">                    System.out.println(<span class="string">"    Sorting:  "</span> + Arrays.toString(arr));</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
       
       
@@ -430,13 +456,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2019/07/03/hello-world/">Hello World</a></p>
+        <p><span>本文标题:</span><a href="/2019/07/03/基本排序算法/">基本排序算法</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 刘本国 的个人博客">刘本国</a></p>
-        <p><span>发布时间:</span>2019年07月03日 - 15时58分</p>
-        <p><span>最后更新:</span>2019年07月04日 - 17时22分</p>
+        <p><span>发布时间:</span>2019年07月03日 - 22时39分</p>
+        <p><span>最后更新:</span>2019年07月04日 - 18时26分</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2019/07/03/hello-world/" title="Hello World">http://yoursite.com/2019/07/03/hello-world/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2019/07/03/hello-world/　　作者: 刘本国" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2019/07/03/基本排序算法/" title="基本排序算法">http://yoursite.com/2019/07/03/基本排序算法/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2019/07/03/基本排序算法/　　作者: 刘本国" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script src="/js/clipboard.min.js"></script>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
@@ -449,7 +475,7 @@
 
 <nav id="article-nav">
   
-    <a href="/2019/07/03/基本排序算法/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/07/04/1/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
@@ -459,6 +485,11 @@
     </a>
   
   
+    <a href="/2019/07/03/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
 </nav>
 
   
@@ -466,7 +497,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一，直接排序算法"><span class="toc-number">1.</span> <span class="toc-text">一，直接排序算法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1，基本思想"><span class="toc-number">1.0.1.</span> <span class="toc-text">1，基本思想</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2，算法描述"><span class="toc-number">1.0.2.</span> <span class="toc-text">2，算法描述</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二，希尔排序（Shell-Sort）"><span class="toc-number">2.</span> <span class="toc-text">二，希尔排序（Shell Sort）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1，基本思想-1"><span class="toc-number">2.0.1.</span> <span class="toc-text">1，基本思想</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2，算法描述-1"><span class="toc-number">2.0.2.</span> <span class="toc-text">2，算法描述</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3，代码实现"><span class="toc-number">2.0.3.</span> <span class="toc-text">3，代码实现</span></a></li></ol></li></ol></li></ol>
 </div>
 <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
 
@@ -533,13 +564,15 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2019/07/03/基本排序算法/" title="上一篇: 基本排序算法">
+            <a href="/2019/07/04/1/" title="上一篇: 基本排序算法">
                 <i class="fa fa-angle-left"></i>
             </a>
         
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
-            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+            <a href="/2019/07/03/hello-world/" title="下一篇: Hello World">
+                <i class="fa fa-angle-right"></i>
+            </a>
         
     </div>
     <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/07/04/1/">基本排序算法</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/07/03/基本排序算法/">基本排序算法</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/07/03/hello-world/">Hello World</a></li></ul>
