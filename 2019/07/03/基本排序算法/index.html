@@ -13,10 +13,12 @@
 <meta property="og:site_name" content="Uglyyy">
 <meta property="og:description" content="#  一，直接排序算法  插入排序的设计初衷是往有序的数组中快速插入一个新的元素。  1，基本思想  直接插入排序的基本思想是：将数组中的所有元素依次跟前面已经排好的元素相比较，如果选择的元素比已排序的元素小，则交换，直到全部元素都比较过为止。  ![](C:\Users\刘本国\Desktop\新建文件夹 (2)\Insertion-sort-example-300px.gif) 2，算法描述一">
 <meta property="og:locale" content="English">
-<meta property="og:updated_time" content="2019-07-04T10:26:37.212Z">
+<meta property="og:image" content="http://yoursite.com/.com//shell-sort.jpg">
+<meta property="og:updated_time" content="2019-07-06T05:48:55.619Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基本排序算法">
 <meta name="twitter:description" content="#  一，直接排序算法  插入排序的设计初衷是往有序的数组中快速插入一个新的元素。  1，基本思想  直接插入排序的基本思想是：将数组中的所有元素依次跟前面已经排好的元素相比较，如果选择的元素比已排序的元素小，则交换，直到全部元素都比较过为止。  ![](C:\Users\刘本国\Desktop\新建文件夹 (2)\Insertion-sort-example-300px.gif) 2，算法描述一">
+<meta name="twitter:image" content="http://yoursite.com/.com//shell-sort.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Uglyyy" type="application/atom+xml">
   
@@ -373,7 +375,7 @@
 <h4 id="2，算法描述"><a href="#2，算法描述" class="headerlink" title="2，算法描述"></a>2，算法描述</h4><p>一般来说，插入排序都采用in-place在数组上实现。具体算法描述如下：</p>
 <p>①. 从第一个元素开始，该元素可以认为已经被排序<br>②. 取出下一个元素，在已经排序的元素序列中从后向前扫描<br>③. 如果该元素（已排序）大于新元素，将该元素移到下一位置<br>④. 重复步骤3，直到找到已排序的元素小于或者等于新元素的位置<br>⑤. 将新元素插入到该位置后<br>⑥. 重复步骤②~⑤</p>
 <p>如果操作次数比较多，则可以采用二分法查找。该算法是可以认为是插入算法的一个变种。</p>
-<p>![](C:\Users\刘本国\Desktop\新建文件夹 (2)\insert-sort.gif)</p>
+<p><img src="/.com//shell-sort.jpg" alt></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">insertionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>( <span class="keyword">int</span> i=<span class="number">0</span>; i&lt;arr.length-<span class="number">1</span>; i++ ) &#123;</span><br><span class="line">        <span class="keyword">for</span>( <span class="keyword">int</span> j=i+<span class="number">1</span>; j&gt;<span class="number">0</span>; j-- ) &#123;</span><br><span class="line">            <span class="keyword">if</span>( arr[j-<span class="number">1</span>] &lt;= arr[j] )</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">int</span> temp = arr[j];      <span class="comment">//交换操作</span></span><br><span class="line">            arr[j] = arr[j-<span class="number">1</span>];</span><br><span class="line">            arr[j-<span class="number">1</span>] = temp;</span><br><span class="line">            System.out.println(<span class="string">"Sorting:  "</span> + Arrays.toString(arr));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>直接插入排序复杂度如下</p>
@@ -459,7 +461,7 @@
         <p><span>本文标题:</span><a href="/2019/07/03/基本排序算法/">基本排序算法</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 刘本国 的个人博客">刘本国</a></p>
         <p><span>发布时间:</span>2019年07月03日 - 22时39分</p>
-        <p><span>最后更新:</span>2019年07月04日 - 18时26分</p>
+        <p><span>最后更新:</span>2019年07月06日 - 13时48分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2019/07/03/基本排序算法/" title="基本排序算法">http://yoursite.com/2019/07/03/基本排序算法/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2019/07/03/基本排序算法/　　作者: 刘本国" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -474,15 +476,6 @@
 
 
 <nav id="article-nav">
-  
-    <a href="/2019/07/06/post-name/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          post_name
-        
-      </div>
-    </a>
   
   
     <a href="/2019/07/03/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
@@ -564,9 +557,7 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2019/07/06/post-name/" title="上一篇: post_name">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
@@ -575,7 +566,7 @@
             </a>
         
     </div>
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/07/06/post-name/">post_name</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/07/03/基本排序算法/">基本排序算法</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/07/03/hello-world/">Hello World</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/07/03/基本排序算法/">基本排序算法</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/07/03/hello-world/">Hello World</a></li></ul>
     <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
     <script>
         $(".post-list").addClass("toc-article");
